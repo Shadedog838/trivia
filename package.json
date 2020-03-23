@@ -1,5 +1,5 @@
 {
-  "name": "studio2",
+  "name": "use-this-for-monday",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://scriptedcurriculum.github.io/studio2",
@@ -31,5 +31,7 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

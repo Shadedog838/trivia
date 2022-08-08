@@ -5,7 +5,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-export default function BasicSelect({triviaType, handleChange}) {
+export default function BasicSelect({triviaDifficulty, handleDifficulty}) {
   return (
     <Box sx={{ minWidth: 220}} style={{marginTop: 20}}>
       <FormControl fullWidth className="input-box">
@@ -13,13 +13,13 @@ export default function BasicSelect({triviaType, handleChange}) {
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          value={triviaType}
+          value={triviaDifficulty}
           label="Trivia Difficulty"
-          onChange={handleChange}
+          onChange={handleDifficulty}
         >
-          <MenuItem value={9}>Easy</MenuItem>
-          <MenuItem value={10}>Medium</MenuItem>
-          <MenuItem value={11}>Hard</MenuItem>
+          <MenuItem value={'easy'}>Easy</MenuItem>
+          <MenuItem value={'medium'}>Medium</MenuItem>
+          <MenuItem value={'hard'}>Hard</MenuItem>
         </Select>
       </FormControl>
     </Box>

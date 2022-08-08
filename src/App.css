@@ -11,7 +11,10 @@ body {
 .app-main {
   text-align: center;
   font-family: 'Luxurious Roman', cursive;
-  color:antiquewhite
+}
+
+h1, h2 {
+  color: antiquewhite;
 }
 
 .input-box {

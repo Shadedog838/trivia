@@ -13,8 +13,13 @@ body {
   font-family: 'Luxurious Roman', cursive;
 }
 
-h1, h2 {
+h1, h2{
   color: antiquewhite;
+}
+
+h3 {
+  color: antiquewhite;
+  text-transform: capitalize;
 }
 
 .input-box {
@@ -23,4 +28,14 @@ h1, h2 {
 
 .trivia-main {
   padding: 20px;
+}
+
+.options-grid:hover {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.table-cell {
+  text-transform: capitalize;
 }

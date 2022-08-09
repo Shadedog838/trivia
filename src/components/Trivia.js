@@ -31,7 +31,7 @@ export default function Trivia() {
 
   const getTrivia = () => {
     if(!playerName || triviaCount === "") {
-      toast.error(`Please Enter the Player's Name And Number of Question`);
+      toast.error(`Please Enter the Player's Name And Number of Questions`);
     } else {
     axios
       .get(
